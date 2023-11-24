@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #009688;
+}
+section{
+	background-color: #009688;
+}
+.row{
+	background: white;
+	border-radius: 30px;
+	box-shadow: 12px 12px 22px grey;
+	margin-top: 90px;
+}
+img{
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.login{
+	border:  none;
+	outline: none;
+	height: 50px;
+	width: 100%;
+	background-color: #009688;
+	color : white;
+	border-radius: 4px;
+	font-weight: bold;
+}
+/*.login button a{
+	color: white;
+	background-color: blue;
+}*/
+.login:hover{
+	background: darkcyan;
+	color: white;
+	border: 1px solid;
+}
+.fa{
+	margin: right;
+}
+.eye{
+	position: absolute;
+}
+#hide1{
+	display:none;
+}
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+}
